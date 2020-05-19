@@ -11,6 +11,12 @@ class CustomText(models.Model):
     r4 = models.BigIntegerField(null=True, blank=True,)
     r3 = models.BigIntegerField(null=True, blank=True,)
     r2 = models.BigIntegerField(null=True, blank=True,)
+    r5 = models.BigIntegerField(null=True, blank=True,)
+    r6 = models.BigIntegerField(null=True, blank=True,)
+    r7 = models.BigIntegerField(null=True, blank=True,)
+    r8 = models.BigIntegerField(null=True, blank=True,)
+    r9 = models.BigIntegerField(null=True, blank=True,)
+    r10 = models.BigIntegerField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
