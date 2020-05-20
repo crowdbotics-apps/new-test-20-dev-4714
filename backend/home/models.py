@@ -9,7 +9,6 @@ from django.db import models
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
     r4 = models.BigIntegerField(null=True, blank=True,)
-    r3 = models.BigIntegerField(null=True, blank=True,)
     r2 = models.BigIntegerField(null=True, blank=True,)
     r5 = models.BigIntegerField(null=True, blank=True,)
     r6 = models.BigIntegerField(null=True, blank=True,)

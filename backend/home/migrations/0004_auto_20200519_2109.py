@@ -6,38 +6,38 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0003_auto_20200519_2102'),
+        ("home", "0003_auto_20200519_2102"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='r10',
+            model_name="customtext",
+            name="r10",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='r5',
+            model_name="customtext",
+            name="r5",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='r6',
+            model_name="customtext",
+            name="r6",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='r7',
+            model_name="customtext",
+            name="r7",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='r8',
+            model_name="customtext",
+            name="r8",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='r9',
+            model_name="customtext",
+            name="r9",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
