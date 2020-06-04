@@ -35,6 +35,13 @@ class HomePage(models.Model):
     r1 = models.BigIntegerField(null=True, blank=True,)
     r2 = models.BigIntegerField(null=True, blank=True,)
     r3 = models.BigIntegerField(null=True, blank=True,)
+    r4 = models.OneToOneField(
+        "home.CustomText",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="homepage_r4",
+    )
 
     @property
     def api(self):
